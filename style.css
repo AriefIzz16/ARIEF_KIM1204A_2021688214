@@ -1,0 +1,102 @@
+
+h1 {
+  display: block;
+  font-size: 5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+
+h2 {
+  display: block;
+  font-size: 5em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: italic;
+}
+
+h3 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: italic;
+}
+
+<!---clock--->  
+  
+#clock {        
+font-size: 175px;        
+width: 900px;        
+margin: 200px;       
+text-align: center;        
+border: 2px solid black;        
+border-radius: 20px;  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+<style>
+    .marquee {
+        width: 100%; /* Adjust as needed */
+        height: 200px; /* Adjust as needed */
+        overflow: hidden;
+        position: relative;
+    }
+
+    .marquee img {
+        position: absolute;
+        animation: marquee 20s linear infinite; /* Adjust animation duration as needed */
+    }
+
+    @keyframes marquee {
+        0% {
+            left: 100%; /* Start position - image is off-screen */
+        }
+        100% {
+            left: -100%; /* End position - image is off-screen */
+        }
+    }
+
+
+<style>
+    .my-text {
+        font-family: Arial, sans-serif; /* Specify the font family */
+        font-size: 70%; /* Specify the font size */
+        color: #800080; /* Specify the font color */
+        /* Add any other desired styling properties */
+    }
+</style>
